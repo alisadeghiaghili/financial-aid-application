@@ -73,18 +73,26 @@ class FinancialAidApp(QWidget):
         courseName = courseName.lower()
         instituteName = instituteName.capitalize()
 
-        part1 = f"I am a student from a developing country keen on learning about {field}. "\
-                "Since the quality of education in our college is not up to the mark, "\
-                "the only way to pursue a viable career option in the future for me is to "\
-                "take this course. Since I am a student and our college does not permit "\
-                "part-time jobs, I would not be able to cover the expenses required for the "\
-                f"course certificate. Financial Aid will help me take this course "\
-                "without any adverse impact on my monthly essential needs. I am really "\
-                "excited about this course because it provides me with a great opportunity "\
-                "to enhance my skills and become a professional in the same or prospective "\
-                "fields, with a strong resume. Coursera has been a great platform among my "\
-                "peers, and following their advice, I am very excited to take my "\
-                "course here!"
+        part1 = f"I am a diligent and ambitious student hailing from a developing nation, deeply passionate about the field of {field}. "\
+            "Regrettably, the educational resources and opportunities in my current college fall short of the standards "\
+            "necessary for a comprehensive understanding of this discipline. Therefore, my pursuit of a promising career "\
+            f"in the future hinges upon enrolling in the {courseName} course. Given my student status and the prohibitions "\
+            "on part-time employment within my college, I am confronted with the stark reality that I lack the financial "\
+            "means to cover the expenses associated with this esteemed course. Financial Aid, in this context, is not just a "\
+            "mere option; it is the lifeline that can bridge the chasm between my aspirations and reality."\
+            "\n\nThe course in question represents an invaluable opportunity for me to acquire in-depth knowledge and "\
+            f"expertise in {field}. Not only will it equip me with practical skills and insights, but it will also "\
+            "nurture my intellectual curiosity and analytical abilities. This course holds the potential to be a "\
+            "transformative force in my educational journey, and its impact will reverberate throughout my career. "\
+            "Furthermore, it promises to provide me with a globally recognized certificate, a testament to my "\
+            f"dedication and competence in {field}. The acquisition of this certificate will undoubtedly elevate my "\
+            "professional profile and open doors to a world of opportunities."\
+            "\n\nMy enthusiasm for this course knows no bounds. It is not just about acquiring knowledge but about "\
+            "improving lives, including mine. It is about realizing the dreams that I have nurtured since my formative "\
+            "years. Coursera, as a platform, has garnered widespread acclaim and trust among my peers and mentors. "\
+            "Their resounding endorsements have ignited a fire within me, compelling me to embark on this educational "\
+            "journey with unwavering determination and enthusiasm. I believe that with Financial Aid, I can fully "\
+            "devote myself to this course without sacrificing my basic needs and secure a brighter future."
 
         part2 = f"{field} is in high demand, and I want to complete the "\
                 f"{courseName} Course at {instituteName}. This course will enhance my job prospects "\
